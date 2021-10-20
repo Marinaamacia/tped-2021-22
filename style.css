@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(img/fondo.jpg);
+    margin: 200px 0px 200px 150px;
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 80pt;
+    color: rgb(111, 140, 226);
+    
+}
+h2{
+
+    font-size: 20pt;
+    font-weight: lighter    ;
+    color: grey;
+    padding-bottom: 6em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{
+    list-style-type: circle;
+    padding-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1em;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(224, 90, 56);
+
+}
+a:hover{
+    background-color:rgb(224, 90, 56);
+    color: whitesmoke;
+}
+
+
