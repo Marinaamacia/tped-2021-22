@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+article p,h2,ul,footer{
+    padding-right: 600px;
+    padding-left: 600px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 55pt;
+    font-weight: lighter;
+    padding-right: 8em;
+    padding-left: 8em;
+}
+
+p,li{
+    font-size: 15pt;
+    padding-bottom: 1em;
+    list-style: none;
+}
+
+h2{
+    font-size: 20pt;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+
+h4{
+    font-size: 12pt;
+    color: rgb(181, 181, 181);
+    padding-top: 2em;
+}
+
+section{
+    text-align: center;
+}
+
+time{
+    font-size: 10pt;
+    color: rgb(181, 181, 181);
+    padding-top: 2em;
+}
+
+.intro{ 
+    padding: 2em 32em;
+    font-size: 15pt;
+}
+
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .rrss li{
+
+      display: inline;
+  }
+
+  .banner{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 40%;
+  }
+
+  footer ul{
+      padding: 0;
+}
+footer li{
+    display: inline;
+    color: rgb(181, 181, 181);
+    font-size: 12pt;
+}
+
+.punteado{
+    color: rgb(181, 181, 181);
+    height: 0px;
+    border:1px dashed;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.separar{
+    margin-left: 100px;
+}
+
