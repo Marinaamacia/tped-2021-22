@@ -1,72 +1,3 @@
-/*body {
-    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
-}
-
-header{
-    height: 100vh; 
-    margin: 0;
-    padding: 0;
-    background-image: url(img/);
-    background-size: cover;
-
-div{
-
-    padding-left: 450px;
-    padding-right: 450px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-h1 {
-    font-weight: lighter;
-    font-size: 55pt;
-}
-
-h2 {
-    color: gray;
-    font-weight: lighter;
-    font-size: 15pt;
- }
-
-p {
-    padding-left: 11em; /*son otro tipo de medida que se basa en la tipografía empleada, son como 11 "m"
-    padding-right: 11em;
-    font-size: 30pt;
-    font-weight:lighter;
-}
-
-ul{
-    list-style:none; /*Eliminar puntos negros de la lista
-    padding-left: 450px;
-    padding-right: 450px;
-    padding-top: 200px;
-    padding-bottom: 200px;
-
-    color: gray;
-    font-weight: lighter;
-    font-size: 15pt;
-}
-
-li{
-    margin-bottom: 30px;
-}
-
-footer{
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: black;
-}
-.menusecundario{
-    color:rgb(255, 255, 255);
-    font-weight: lighter;
-    font-size: 35pt;
-}
-
-*/
-
-
-/*CORRECCIÓN DE CLASE + EJERCICIO NUEVO*/
-
-
 body{
     font-family:Helvetica Neue, Helvetica, Arial, sans-serif; /*En caso de que el pc no tenga una tipo instalada, pasaraía a utilizarse la siguiente*/
     letter-spacing: 2px; /*Modifica el interletrado*/
@@ -146,3 +77,24 @@ a.sin:hover {
     font-weight: lighter;
   }
 
+
+nav{
+     background-color: black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 280px;
+      width: 100%;
+      position: fixed;
+      font-size: 15pt;
+      
+  }
+
+  nav a {
+      color: white;
+  }
+
+  a:hover{
+     position: relative;
+     left: 5px;
+
+  }
