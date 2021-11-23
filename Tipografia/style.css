@@ -1,0 +1,56 @@
+body{
+    background-color: lightgray;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+h1{
+    font-size: 60px;
+    color: darkgrey;
+    text-align: center;
+}
+section{
+    width: 30%;
+    background-color:white;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-color: darkgrey;
+    border-style: dotted;
+    border-width: 3px;
+    padding: 10px;
+}
+
+@font-face {
+    src: url(NotoSerif-Regular.ttf);/*importar tipografías del sistema*/
+  }
+
+#uno {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#dos{
+    font-family: 'Noto Serif';
+
+}
+
+#tres{
+    font-family: 'Righteous';
+}
+
+#cuatro{
+    font-family: 'Comforter Brush', cursive;
+}
+
+#cinco{
+    font-family: 'Cutive Mono', monospace;
+}
+
+#seis{
+    font-family: 'Indie Flower', cursive;
+}
+
