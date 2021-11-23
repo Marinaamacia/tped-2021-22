@@ -1,7 +1,13 @@
 body{
     background-color: lightgray;
+    margin-left:30px ;
 }
 
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 main{
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +17,9 @@ main{
 
 h1{
     font-size: 60px;
-    color: darkgrey;
+    color:whitesmoke;
     text-align: center;
+    padding-right: 15px;
 }
 section{
     width: 30%;
@@ -53,4 +60,5 @@ section{
 #seis{
     font-family: 'Indie Flower', cursive;
 }
+
 
