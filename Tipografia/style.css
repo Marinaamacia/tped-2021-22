@@ -22,7 +22,8 @@ h1{
     padding-right: 15px;
 }
 section{
-    width: 30%;
+    box-sizing: border-box;
+    width: 30vw;
     background-color:white;
     margin-right: 20px;
     margin-top: 20px;
@@ -33,7 +34,8 @@ section{
 }
 
 @font-face {
-    src: url(NotoSerif-Regular.ttf);/*importar tipografías del sistema*/
+    font-family: propia;
+    src: url(NotoSerif-Regular.ttf);/*importar tipografías del sistema PERO EL FORMATO TIENE QUE SER SIEMPRE .WOFF*/
   }
 
 #uno {
@@ -41,7 +43,7 @@ section{
 }
 
 #dos{
-    font-family: 'Noto Serif';
+    font-family: 'propia';
 
 }
 
@@ -61,4 +63,6 @@ section{
     font-family: 'Indie Flower', cursive;
 }
 
-
+i{
+    padding-right: 20px;
+}
