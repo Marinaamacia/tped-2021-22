@@ -1,0 +1,13 @@
+div {
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 211);
+    
+    border-style:groove;
+    border-color: black;
+    border-width: 1px;
+    padding: 10px;
+}
+
+.container {
+    background-color: lightslategray;
+}
