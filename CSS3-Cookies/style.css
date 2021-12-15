@@ -1,0 +1,74 @@
+div{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.container-fluid {
+    border-style:groove;
+    border-color: black;
+    border-width: 1px;
+}
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+* {box-sizing: border-box}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.imgoverlay {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+#cookies{
+    border-style:groove;
+    border-color: black;
+    border-width: 1px;
+    height: 120px;
+    width: 700px;
+    position: fixed;
+    bottom: 31px;
+    left: 0;
+}
