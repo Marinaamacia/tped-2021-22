@@ -4,65 +4,57 @@
   <title>junglaGrafica</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
+  
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  	$(document).ready(function(){
+		$("button").click(function(){
+	  		$("p").hide(1000);
+		});
+ 	 });
+  </script>
+    <link rel="stylesheet" href="css/style_contacto.css">
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3">
-				<img src="img/SVG/logojunglagrafica.svg" alt="logo">
-				logo
-			</div>
-			<div class="col-md-9">
-				<h1>Contacto</h1>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-3">
-				<img src="img/SVG/retratojunglagrafica.svg" alt="retrato">
-						dibujo
 	
-				<hr>
-				<nav>MENU
+	<header>
+		<h1>JUNGLA GRÁFICA</h1>
+	</header>
+
+	<div class="containter-fluid">
+		<div class="row">
+			<div class="col-md-3" id="menu">
+				<img id="hoja" src="img/SVG/hoja.svg" alt="hoja">
+				<nav>
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
+						<li class="desactivado"><a href="index.html">Inicio</a></li>
+						<li class="desactivado"><a href="portfolio.html">Portfolio</a></li>
 						<li><a href="contacto.html">Contacto</a></li>
 					</ul>
 				</nav>
+				<img id="hojamovida" src="img/SVG/hojainf.svg" alt="hoja">
 			</div>
 			<div class="col-md-9">
 				<div class="row">
-					<div class="col-md-6">
-						<img src="img/SVG/retratojunglagrafica.svg">
-					</div>
-					<div class="col-md-6">Datos de contacto
+					<div class="col">
+						<h2>Contacto</h2>
+						<p>Si has llegado hasta aquí es porqué estás considerando trabajar con nosotros ¡Gracias por tu interés!</p>
+							<div id="contacto">
+								<ul>
+									<li><img src="img/telephone.png" alt="telephone"> +34 96 545 22 03</li>
+									<li><img src="img/email.png" alt="email">junglagrafica@info.com</li>
+								</ul>
+							</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<footer class="container-fluid">
-		<div class="row">
-			<div class="col-md-9">
-				<h2>sasdf</h2>
-				<p>Texto</p>
-			</div>
-	
-			<div class="col-md-3">
-				<p>texto</p>
-				<button>Contactar</button>
-			</div>
-		</div>
-	</footer> 
-	</body>
-	</html>
+</body>
+</html>
