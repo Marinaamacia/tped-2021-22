@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>junglaGrafica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+  	$(document).ready(function(){
+		$("button").click(function(){
+	  		$("#cookies").hide(1000);
+		});
+ 	 });
+  </script>
+     <link rel="stylesheet" href="css/style_index.css">
+</head>
+
+<body>
+	<div id="cookies">
+		<p>Éste sitio web usa cookies, si permanece aquí acepta su uso.
+		Puede leer más sobre el uso de cookies en nuestra <a href="#">política de privacidad</a>
+		</p>
+		<button>Aceptar</button>
+	</div>
+
+	<header>
+		<h1>JUNGLA GRÁFICA</h1>
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<p class="txtcarousel">Tus competidores ya están en Internet. ¿A qué estás esperando?</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">Sin diseño no hay beneficios. Enamora a primera vista</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">El logotipo es el pilar de tu marca. Un diseño profesional es fundamental.</p>
+				</div> 
+			</div>
+		</div>
+	</header>
+
+	<div class="containter-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-3" id="menu">
+				<img id="hojasup" src="img/SVG/hoja.svg" alt="hoja">
+				<nav>
+					<ul>
+						<li><a id="activado" href="index.html">Inicio</a></li>
+						<li><a class="desactivado" href="portfolio.html">Portfolio</a></li>
+						<li><a class="desactivado" href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+				<img id="hojainf"src="img/SVG/hojainf.svg" alt="hoja">
+			</div>
+			<div class="col-sm-12 col-md-9">
+				<div class="igualar">
+					<div class="row" id="home">
+					<div id="bocadillo" class="col-md-7">
+						<h2>¡Hola!</h2>
+						<h3>Bienvenid@, me llamo Marina Maciá Ferrández. Pero puedes llamarme Marina o cualquier otra forma que te parezca adecuada.</h3>
+						<button id="botoninicio"><a href="portfolio.html">VER TRABAJOS</a></button>
+					</div>
+					<div class="col-sm-12 col-md-5">
+						<img id="retrato" src="img/SVG/retrato.svg" alt="ilustracion retrato">
+					</div>
+				</div>
+				</div>
+		
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<div class="row" id="footer">
+			<div class="col-sm-12 col-md-2">
+				<!--<a href="https://www.instagram.com/junglagrafica/" target="blank"><img src="img/isnta.png" alt="insta"></a>-->
+			</div>
+			<div class="col-sm-12 col-md-7">
+				<P>¿Necesitas ayuda? Cuéntame un poco sobre tu proyecto</P>
+			</div>
+			<div id="contacto" class="col-sm-12 col-md-3">
+				<a href="contacto.html">CONTACTAR</a>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

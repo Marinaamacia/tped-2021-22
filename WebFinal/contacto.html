@@ -21,28 +21,41 @@
   </script>
     <link rel="stylesheet" href="css/style_contacto.css">
 </head>
+
 <body>
-	
 	<header>
 		<h1>JUNGLA GRÁFICA</h1>
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<p class="txtcarousel">El logotipo es el pilar de tu marca. Un diseño profesional es fundamental.</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">Sin diseño no hay beneficios. Enamora a primera vista</p>
+				</div>
+				<div class="carousel-item">
+					<p class="txtcarousel">Tus competidores ya están en Internet. ¿A qué estás esperando?</p>
+				</div> 
+			</div>
+		</div>
 	</header>
 
 	<div class="containter-fluid">
 		<div class="row">
-			<div class="col-md-3" id="menu">
-				<img id="hoja" src="img/SVG/hoja.svg" alt="hoja">
+			<div class="col-sm-12 col-md-3" id="menu">
+				<img id="hojasup" src="img/SVG/hoja.svg" alt="hoja">
 				<nav>
 					<ul>
-						<li class="desactivado"><a href="index.html">Inicio</a></li>
-						<li class="desactivado"><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="contacto.html">Contacto</a></li>
+						<li><a class="desactivado" href="index.html">Inicio</a></li>
+						<li><a class="desactivado" href="portfolio.html">Portfolio</a></li>
+						<li><a id="activado"href="contacto.html">Contacto</a></li>
 					</ul>
 				</nav>
-				<img id="hojamovida" src="img/SVG/hojainf.svg" alt="hoja">
+				<img id="hojainf"src="img/SVG/hojainf.svg" alt="hoja">
 			</div>
-			<div class="col-md-9">
+			<div class="col-sm-12 col-md-9">
 				<div class="row">
-					<div class="col">
+					<div id="contenido" class="col">
 						<h2>Contacto</h2>
 						<p>Si has llegado hasta aquí es porqué estás considerando trabajar con nosotros ¡Gracias por tu interés!</p>
 							<div id="contacto">
@@ -56,5 +69,8 @@
 			</div>
 		</div>
 	</div>
+	<footer>
+		
+	</footer>
 </body>
 </html>
